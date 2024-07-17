@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+    text-decoration: none;
+}
+
+
+.navbar{
+height:60px;
+background-color:#0f1111;
+color:white;
+display:flex;
+align-items: center;
+justify-content: space-evenly;    
+}
+.navlogo{
+    height:50px;
+    width:110px;
+}
+.logo{
+    height:50px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+.border{
+    border:1.5px,solid,transparent;
+}
+.border:hover{
+    border:1.5px,solid,white;
+}
+/* box2*/
+.add1{
+    font-size: 1rem;
+    color:#cccccc;
+    margin-left: 15px;
+
+}
+.add2{
+    font-size:1.2rem;
+    color:#ffffff;
+    margin-left: 5px;
+}
+.addressicon{
+    display:flex;
+    align-items: center;
+}
+/* box 3*/
+.navsearch{
+    height:40px;
+    width:650px;
+    background-color:aquamarine;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.navsearch:hover{
+    border:2px,solid,orange;
+}
+.searchselect{
+    height:40px;
+    width:50px;
+    background-color: #e6e6e6;
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+.searchinput{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    height:40px;
+    background-color:#febd68;
+    color:#0f1111;
+    font-size:1.2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/** box 4 **/
+span{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.navline2{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+/** box 5**/
+.navreturns{
+    font-size:0.7rem;
+
+}
+.navline3{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** box6 **/
+.navcart i{
+font-size:30px;
+}
+.navcart{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** PANEL**/
+.panel{
+    color:white;
+    height: 39px;
+    background-color: #222f3d;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.panelopt p{
+    color:white;
+    display:inline;
+    height:39px;
+   width:70%;
+   font-size: 0.9rem;
+   margin-left: 5px;
+   margin-right: 6px;; 
+}
+.panellogo{
+    height: 39px;
+    width:400px;
+    background-image: url(offer.jpg);
+    background-size: cover;
+}
+/**main content**/
+.maincontentimage{
+    background-image: url(maincon.png);
+    background-size:cover;
+    width:100%;
+    height:400px;   
+}
+/**box shopping**/
+.shopbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e8f7f9;    
+}
+.box{
+    height:400px;
+    width:23%;
+    color: #0f1111; 
+    background-color:white;
+    padding: 20px,0px,15px;
+    margin:15px;   
+} 
+h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 285px;
+}
+.new{
+    color:#007185;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 10px; 
+}
+.boximage{  
+    background-size:cover;
+    height:350px;
+    margin-left: 1rem;
+    margin-right: 1rem;  
+}
+/**footer**/
+.footer{
+    margin-top:15px;
+}
+.footpanel1{
+    height:50px;
+    color:white;
+    background-color: #37475a;
+    font-size:0.85rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.footpanel2{
+    height:300px;
+    color:white;
+    background-color: #222f3d;
+    display:flex;
+    justify-content:space-evenly;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin:10px;
+}
+.weight{
+    font-weight: 700;
+}
+ul{
+    margin:20px;
+}
+/**footpanel3*/
+.footpanel3
+{
+    height: 70px;
+    color:white;
+    background-color: #222f3d;
+    border-top-color: white;
+    border-top-width: 0.4px;
+    border-top-style: solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width:90px;
+
+}
+.footpanel4{
+    background-color: #131a22;
+    height:76px;
+    color:#dddddd;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.space{
+    margin:5px;
+}
+.tags{
+    padding-top: 20px;;
+}
+.copyrightoftanmay{
+    padding-top: 5px;
+}
